@@ -86,6 +86,11 @@ html, body {
     margin: 5px;
 }
 
+.fitco a img {
+    height: 200px;
+    width: auto;
+}
+
 .wrapper {
     margin-top: 100px;
     text-align: center;
@@ -105,10 +110,6 @@ html, body {
     margin: 0 auto;
 }
 
-#fourthPage p {
-    padding-top:3px;
-    padding-bottom: 3px;
-}
 
 @media screen and (max-width: 768px) {
     #profile {
@@ -119,6 +120,24 @@ html, body {
     #secondPage .introduce {
         margin-top: 20px;
     }
+
+    .work {
+        height: 300px;
+    }
+
+    .fitco a img{
+        height: 100px;
+    }
+
+    .bdk a img {
+        height: 100px;
+    }
+
+    #fourthPage .wrapper {
+        margin-top : 0;
+    }
+
+
 }
 
 @media screen and (max-width: 1000px) {
