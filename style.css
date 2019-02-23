@@ -105,7 +105,7 @@ html, body {
 
 
 #secondPage .introduce p, #thirdPage .introduce p {
-    font-size: 30px;
+    font-size: 28px;
 }
 #fourthPage .row {
     padding: 10px;
@@ -128,14 +128,18 @@ html, body {
     text-align: center;
 }
 
-#secondPage .wrapper, #thirdPage .wrapper {
-    margin-top: 80px;
+#secondPage .wrapper {
+    margin-top: 100px;
+}
+
+#thirdPage .wrapper {
+    margin-top: 50px;
 }
 
 .wrapper .btn {
-    font-size: 20px;
-    width: 200px;
-    height: 80px;
+    font-size: 16px;
+    width: 150px;
+    height: 60px;
 }
 
 #fourthPage img {
@@ -144,6 +148,10 @@ html, body {
 
 #fourthPage .wrapper {
     margin-top: 80px;
+}
+
+a.nav-item.nav-link {
+    margin: 0 15px;
 }
 
 
@@ -160,8 +168,16 @@ html, body {
         padding-top: 50px;
     }
 
+    #thirdPage .introduce {
+        padding-top: 100px;
+    }
+
     .work {
         height: 250px;
+    }
+
+    #profile {
+        width: 200px;
     }
 
     .fitco a img{
@@ -177,27 +193,23 @@ html, body {
     }
 
     #secondPage .wrapper {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     #thirdPage .wrapper {
-        margin-top: 180px;
+        margin-top: 120px;
     }
 
     #fourthPage p {
         margin-bottom: 3px;
     }
 
-
-}
-
-@media screen and (max-width: 1000px) {
-    .introduce p {
-        font-size: 28px;
-    }
-    
     #secondPage .introduce p, #thirdPage .introduce p {
         font-size: 20px;
-        padding-bottom: 0px;
     }
+
+    .introduce p {
+        padding-left: 50px;
+    }
+
 }
